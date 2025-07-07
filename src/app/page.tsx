@@ -11,10 +11,8 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      
       <Hero />
       {/* quelques appartement  ???? */}
-
       <Popular_destinations />
       {/* Confiance */}
       <Feature43 />

@@ -1,57 +1,55 @@
-import  Gallery4  from "@/components/gallery4";
-
-
+import Gallery4 from "@/components/gallery4";
 
 const data = [
   {
-    id: "shadcn-ui",
-    title: "shadcn/ui: Building a Modern Component Library",
+    id: "paris",
+    title: "Paris",
     description:
-      "Explore how shadcn/ui revolutionized React component libraries by providing a unique approach to component distribution and customization, making it easier for developers to build beautiful, accessible applications.",
-    href: "https://ui.shadcn.com",
+      "Découvrez le charme intemporel de Paris, entre monuments historiques, gastronomie raffinée et balades romantiques le long de la Seine.",
+    href: "#",
     image:
-      "https://images.unsplash.com/photo-1551250928-243dc937c49d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxMjN8fHx8fHwyfHwxNzIzODA2OTM5fA&ixlib=rb-4.0.3&q=80&w=1080",
+      "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    id: "tailwind",
-    title: "Tailwind CSS: The Utility-First Revolution",
+    id: "rome",
+    title: "Rome",
     description:
-      "Discover how Tailwind CSS transformed the way developers style their applications, offering a utility-first approach that speeds up development while maintaining complete design flexibility.",
-    href: "https://tailwindcss.com",
+      "Immergez-vous dans l’histoire antique de Rome, avec ses ruines majestueuses, ses fontaines légendaires et ses délicieuses trattorias.",
+    href: "#",
     image:
-      "https://images.unsplash.com/photo-1551250928-e4a05afaed1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxMjR8fHx8fHwyfHwxNzIzODA2OTM5fA&ixlib=rb-4.0.3&q=80&w=1080",
+      "https://images.unsplash.com/photo-1555992828-ca4dbe41d294?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    id: "astro",
-    title: "Astro: The All-in-One Web Framework",
+    id: "lisbon",
+    title: "Lisbonne",
     description:
-      "Learn how Astro's innovative 'Islands Architecture' and zero-JS-by-default approach is helping developers build faster websites while maintaining rich interactivity where needed.",
-    href: "https://astro.build",
+      "Entre collines colorées, tramways rétro et vue sur l’Atlantique, Lisbonne est un parfait mélange de tradition et de modernité.",
+    href: "#",
     image:
-      "https://images.unsplash.com/photo-1536735561749-fc87494598cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxNzd8fHx8fHwyfHwxNzIzNjM0NDc0fA&ixlib=rb-4.0.3&q=80&w=1080",
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=1080",
   },
   {
-    id: "react",
-    title: "React: Pioneering Component-Based UI",
+    id: "marrakech",
+    title: "Marrakech",
     description:
-      "See how React continues to shape modern web development with its component-based architecture, enabling developers to build complex user interfaces with reusable, maintainable code.",
-    href: "https://react.dev",
+      "Plongez dans l’ambiance envoûtante de Marrakech, ses souks vibrants, ses riads somptueux et ses jardins apaisants.",
+    href: "#",
     image:
-      "https://images.unsplash.com/photo-1548324215-9133768e4094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxMzF8fHx8fHwyfHwxNzIzNDM1MzA1fA&ixlib=rb-4.0.3&q=80&w=1080",
+      "https://images.unsplash.com/photo-1562163143-1a1f227c609e?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=1080",
   },
   {
-    id: "nextjs",
-    title: "Next.js: The React Framework for Production",
+    id: "bali",
+    title: "Bali",
     description:
-      "Explore how Next.js has become the go-to framework for building full-stack React applications, offering features like server components, file-based routing, and automatic optimization.",
-    href: "https://nextjs.org",
+      "Évadez-vous sur l’île des Dieux : plages paradisiaques, rizières verdoyantes et culture balinaise authentique vous attendent.",
+    href: "#",
     image:
-      "https://images.unsplash.com/photo-1550070881-a5d71eda5800?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxMjV8fHx8fHwyfHwxNzIzNDM1Mjk4fA&ixlib=rb-4.0.3&q=80&w=1080",
+      "https://images.unsplash.com/photo-1526476148966-99ad1835423a?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=1080",
   },
 ];
 
 function Popular_destinations() {
-  return <Gallery4    items={data}  />;
+  return <Gallery4 items={data} />;
 }
 
 export { Popular_destinations };

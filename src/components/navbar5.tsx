@@ -30,35 +30,23 @@ import ModeToggle from "./toogle_DarkMode";
 import Link from "next/link";
 
 const Navbar5 = () => {
+  
   const features = [
     {
-      title: "Dashboard",
-      description: "Overview of your activity",
+      title: "Locations de vacances",
+      description:
+        "Découvrez nos hébergements pour vos séjours de courte durée.",
       href: "#",
     },
     {
-      title: "Analytics",
-      description: "Track your performance",
+      title: "Séjours temporaires",
+      description: "Des logements adaptés pour quelques semaines ou mois.",
       href: "#",
     },
     {
-      title: "Settings",
-      description: "Configure your preferences",
-      href: "#",
-    },
-    {
-      title: "Integrations",
-      description: "Connect with other tools",
-      href: "#",
-    },
-    {
-      title: "Storage",
-      description: "Manage your files",
-      href: "#",
-    },
-    {
-      title: "Support",
-      description: "Get help when needed",
+      title: "Locations longue durée",
+      description:
+        "Louez une maison ou un appartement pour une durée indéterminée.",
       href: "#",
     },
   ];
